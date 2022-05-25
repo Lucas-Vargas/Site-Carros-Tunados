@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/styleContato.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header class="header1">
+        <h1 class="h1header1" style="color: white;">Carros Tunados</h1>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+
+            <ul class="menu__box">
+                <li>
+                  <a class="menu__item" href="/index.html">Home</a></li>
+                  <li><a class="menu__item" href="/supra.html">Toyota Supra</a></li>
+                  <li><a class="menu__item" href="/Silvia.html">Silvia</a></li>
+                  <li><a class="menu__item" href="/rx7.html">RX7</a></li>
+                  <li><a class="menu__item" href="/contato.html">Contato</a></li>
+              </ul>
+        </div>
+    </header>
+
+    <div class="mainContato">
+        <div class="box">
+            <header class="header2">
+                <h1>Contato</h1>
+                <img src="/IMG/contato.png" alt="">
+            </header>
+
+            <main class="main1">
+                <div class="nome">
+                    <div class="nomeimg">
+                        <label for="nome" class="texto">nome</label><br><br>
+                        <img src="/IMG/profile.png" alt="">
+                    </div>
+                </div>
+                <input type="text" name="email" id="inputnome" style="width:40vw; font-size: 3vh;"><br>
+                <div class="nomeimg">
+                    <label for="email" class="texto">E-Mail</label><br><br>
+                    <img src="/IMG/email.png" alt="">
+                </div>
+                <input type="text" name="fone" id="inputnome" style="width:40vw; font-size: 3vh;"><br>
+                <div class="nomeimg">
+                    <label for="fone" class="texto">Fone</label><br><br>
+                    <img src="/IMG/fone.png" alt="">
+                </div>
+                <input type="text" name="nome" id="inputnome" style="width:40vw; font-size: 3vh;"><br><br>
+
+                <label for="duvidas" class="texto">Dúvias/Sugestão/Criticas</label><br>
+                <textarea name="textarea" id="txtArea" cols="30" rows="10"
+                    style="height:30vh; width: 100vw auto ;"></textarea><br>
+
+                <fieldset>
+                    <legend>
+                        <p class="texto">Sexo</p><br>
+                    </legend>
+                    <div class="radio">
+
+                        <input type="radio" name="sexo" class="textosexo"><label for="sexo">Masculino</label><br>
+                        <input type="radio" name="sexo" class="textosexo"><label for="sexo">Feminino</label><br>
+            </div>
+                </fieldset><br><br> 
+                <div class="button">
+                <input id="enviar" type="submit" value="Enviar">
+                <input id="limpar" type="reset" value="Limpar">
+            </div>
+
+
+
+
+            </main>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+          <div class="esquerda">
+            <div class="redeSocial">
+                <div class="facebook">
+                    <img src="./IMG/3225194_app_facebook_logo_media_popular_icon.png" class="imgFoot" alt="">
+                    <a href="https://www.facebook.com"><h2>Facebook</h2></a>
+                </div>
+                <div class="gitHub">
+                    <img src="./IMG/1298743_github_git_logo_social_icon.png" class="imgFoot" alt="">
+                    <a href="https://github.com"><h2>gitHub</h2></a>
+                </div>
+            </div>
+          </div>
+          <div class="direita">
+            <div class="logo">
+                <img src="./IMG/ulbra-vector-logo.png" id="ulbraLogo" alt="ULbra Logo">
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(13, 8, 17);
+}
+header{
+    width: 100vw;
+    height: 13vh;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    box-shadow: 2vh;
+    position: fixed;
+    top: 0;
+
+}
+.carros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(141, 141, 141);
+
+    width: 50vw;
+    height: 40vh;
+    margin-left: 25vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.imgCarro{
+    height: 30vh;
+    width: 30vw;
+    margin-right: 2vw;
+    border-radius: 2vh ;
+    box-shadow: 1vh 1vh ;
+}
+.supra{
+    flex-basis: 70%;
+    order: 4;
+}
+.texto-explicativo{
+    color: #381058;
+    padding-left: 2vw;
+    font-size: 3vh;
+}
+/*
+
+nav menu
+
+*/
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: absolute;
+    display: flex;
+    top: 5vh;
+    left: 4vh;
+    width: 4vh;
+    height: 4vh;
+    cursor: pointer;
+    z-index: 1;
+    padding: 5px 5px 5px 5px ;
+    margin-top: 0.5vh;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0.4vh;
+    background-color: #ffffff;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 40vh;
+  height: 100%;
+  margin: 0;
+  padding: 12vh 0;
+  list-style: none;
+  background-color:rgba(184, 184, 184, 0.5);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+  transition-duration: .3s;
+  }
+  .menu__item {
+    display: block;
+    padding: 2vh 4vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    font-weight: 700;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: #3f3f3f;
+  }
+
+
+
+  .footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(141, 141, 141);
+    width: 100%;
+    height:auto;
+    margin-top: 200px;
+
+  }
+
+  .esquerda{
+    background-color: transparent;
+    width: 50vw;
+    height: 18vh ;
+
+  }
+  .direita{
+    background-color: transparent;
+    width: 50vw;
+    height: 18vh ;
+  }
+
+  .redeSocial{
+    margin: 0.5vh;  
+    background-color: transparent;
+    width: auto;
+    height: 14vh;
+    padding: 10px;
+  }
+
+  .redeSocial h2{
+    font-size: 15pt;
+    margin: 0.4vw;
+    color: black;
+    
+  }
+  
+  .redeSocial a{
+    text-decoration: none;
+  }
+
+  
+  .redeSocial h2:hover{
+    color: rgb(48, 21, 80);
+    
+  }
+  .facebook{
+   background-color: transparent;
+   display: flex;
+   padding: 1vh;
+  }
+.gitHub{
+  background-color: transparent;
+  display: flex;
+  padding: 1vh;
+}
+  .logo{
+    background-color: transparent;
+    width: auto;
+    height: 14vh;
+    padding: 10px;
+    margin: 0.5vh;
+    display: flex;
+    justify-content: right;
+  }
+
+ .imgFoot{
+   height: 5vh;
+   width: 2.5vw;
+ }
+
+ #ulbraLogo{
+   width: 8.5vw;
+   height: 15vh;
+ }
